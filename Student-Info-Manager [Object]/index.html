@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎓 Student Info Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🎓 Student Info Manager</h2>
+
+    <input type="text" id="name" placeholder="Enter your name" />
+    <input type="text" id="stdClass" placeholder="Enter your class" />
+
+    <div class="buttons">
+      <button onclick="saveInfo()">Save Info</button>
+      <button onclick="loadInfo()">Load Info</button>
+      <button onclick="updateInfo()">Update Info</button>
+      <button onclick="removeClass()">Remove Class Only</button>
+      <button onclick="clearAll()">Clear All</button>
+    </div>
+
+    <h3>📋 Result:</h3>
+    <p id="output"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
